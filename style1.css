@@ -1,0 +1,247 @@
+
+         *{
+            font-family: Roboto,Arial;
+         }
+         header{
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+
+         }
+            .left-section{
+                display: inline-flex;
+                flex-direction: row;
+                justify-items: center;
+            }
+
+            .img1{
+                height: 70px;
+                width: 120px;
+                color: black;
+                margin-right: 5px;
+                
+            }
+
+            .searchbar{
+                flex: 1;
+                height: 36px;
+                padding-left: 25px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgba(192,192,192,192);
+                font-size: 13.5px;
+                border-radius: 4px;
+                box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+                margin-top: 15px;
+                margin-left: 10px;
+                
+            }
+
+            .searchbar::placeholder{
+             font-family: Roboto,Arial;
+   
+            }
+
+           
+            .button1{
+                background-color: rgb(231, 40, 72);
+                color: white;
+                border: none;
+                font-size: 13px;
+                padding: 8px 18px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .button1:hover{
+                opacity: 0.8;
+            }
+            
+            .op{
+                border: none;
+                padding: 10px 5px;
+                margin-right: 25px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            .hamburger{
+                height: 25px;
+                width: 30px;
+                margin-left: 20px;
+                margin-top: 12px;
+                cursor: pointer;
+            }
+
+          .search{
+            display: inline-block;
+          }
+
+         .right-section{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+         }
+
+         .first_part{
+            height: 55px;
+            background-color: rgba(128, 128, 128, 0.036);
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 10px;
+         }
+
+         .right-section{
+            display: flex;
+            flex-direction: row;
+
+         }
+
+         .pm1{
+            margin-right: 20px;
+            font-size: 15px;
+            cursor: pointer;
+            color: rgb(52, 50, 50);
+            flex-direction: row;
+         }
+         
+         .pm1:hover{
+            opacity: 0.5;
+         }
+
+         .main1{
+            background-color: rgba(211, 211, 211, 0.141);
+         }
+        
+         .card{
+		width: 250px;
+		background-color: rgba(211, 211, 211, 0.068);
+		margin: 20px;
+		border-radius: 15px;
+        cursor: pointer;
+	    }
+
+        .sl{
+            border: none;
+            color: red;
+            background-color: rgba(211, 211, 211, 0.012);
+            cursor: pointer;
+        }
+
+        .sl:hover{
+            opacity: 0.5;
+        }
+	.i1{
+		height: 380px;
+		width: 220px;
+        border-radius: 15px;
+	}
+
+	.parent{
+		display: flex;
+		justify-content: space-around;
+        margin-left: 120px;
+        margin-right:200px ;
+	}
+
+    .h5{
+        color: gray;
+    }
+
+    .div1{
+        display: flex;
+        justify-content: space-around;
+       margin-left: -300px;
+    }
+
+    .bk{
+        height: 110px;
+        margin-left: 120px;
+    }
+
+    h2{
+        margin-left: 120px;
+    }
+
+    .i2{
+        height: 220px;
+		width: 220px;
+        border-radius: 15px;
+    }
+
+    .third_section{
+        background-color: rgb(42,49,72);
+    }
+
+    .th,.th1{
+        line-height: 4px;
+        color: white;
+        margin-left: 100px;
+    }
+
+    .th1{
+        font-size: 14px;
+    }
+
+    .p1{
+        margin-left: 120px;
+        height: 100px;  
+    }
+
+    .pre{
+        color: white;
+    }
+
+    .i3{
+        height: 325px;
+		width: 220px;
+        border-radius: 15px; 
+    }
+
+    .card1{
+		width: 250px;
+		background-color: rgb(42,49,72);
+		margin: 20px;
+		border-radius: 15px;
+        cursor: pointer;
+	    }
+
+        footer{
+            background-color: rgb(43, 42, 42); 
+        }
+        .footer{
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(43, 42, 42);
+            color: white;
+            align-items: center;
+        }
+
+        .left1{
+            display: inline-block;
+            margin-left: 15px;
+        }
+
+        .third{
+            cursor: pointer;
+            
+            margin-left: 150px;
+        }
+
+        .movie{
+            font-size: 12px;
+            color: rgb(157, 151, 151);
+        }
+
+        .movie1{
+            color: gray;
+            font-size: 11px; 
+            transition: color 0.15s;
+        }
+
+        .movie1:hover{
+            color: white;
+        }
+        
